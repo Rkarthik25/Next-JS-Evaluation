@@ -2,10 +2,13 @@ import {Box,Image,Heading,Text,Button, Flex} from "@chakra-ui/react"
 import Link from "next/link"
 
 
+
 export default function Home({main}) {
   console.log(main)
   return (
     <>
+    <Flex>
+
     <Box h={"500px"} border={"1px solid white"} p={20} w={"500px"} key={main.id}>
         <Image w={"10%"} borderRadius={"50%"} src={main.avatar_url}/>
         <Heading>Karthikeyan Rajan</Heading>
@@ -41,7 +44,12 @@ September 2019 - November 2020
       4
 Software Engineer at Confluxsys
       </Text>
+      
     </Box>
+    </Flex>
+    
+    
+    {/* <Projects/> */}
     </>
   )
 }

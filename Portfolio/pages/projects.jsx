@@ -2,7 +2,7 @@ import {FaRegStar,FaRegFolder} from "react-icons/fa"
 import {BiGitRepoForked} from "react-icons/bi"
 import { Box,Heading,Text,Grid,GridItem } from "@chakra-ui/react"
 const Projects=({proj})=>{
-    console.log(proj.items)
+    // console.log(proj.items)
 return(
 <>
     <Box  >
@@ -31,8 +31,8 @@ return(
 )
 
 }
-
 export default Projects
+
 
 
 
